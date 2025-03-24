@@ -32,7 +32,7 @@ compute nodes across BeeGFS storage targets.
 The storage resource is mounted on `/work` on Sophia's head node and all compute nodes and 
 provides approximately 50TB of shared storage space accessible from all nodes.
 
-# Automatic Temporary Directory Management
+## Automatic Temporary Directory Management
 
 To simplify temporary storage usage and ensure proper cleanup, we have implemented automatic
 temporary directory management through predefined SLURM variables:
